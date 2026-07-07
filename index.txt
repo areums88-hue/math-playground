@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>수학 게임 놀이터</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f5f7fb;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+    font-size: 32px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card p {
+    color: #666;
+}
+
+button {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #357abd;
+}
+
+a {
+    text-decoration: none;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>🧮 수학 게임 놀이터</h1>
+
+<p class="subtitle">
+재미있게 풀고,<br>
+자연스럽게 익히는 수학 연습
+</p>
+
+
+<div class="card">
+<h2>🧮 연산마스터</h2>
+<p>빠르고 정확한 계산 연습</p>
+
+<a href="연산마스터주소">
+<button>시작하기</button>
+</a>
+</div>
+
+
+<div class="card">
+<h2>🔷 도형마스터</h2>
+<p>도형 감각과 공간 감각 키우기</p>
+
+<a href="https://areums88-hue.github.io/dohyeong-master/">
+<button>시작하기</button>
+</a>
+</div>
+
+
+<div class="card">
+<h2>⏱ 세 번째 게임</h2>
+<p>집중력과 문제 해결 연습</p>
+
+<a href="세번째게임주소">
+<button>시작하기</button>
+</a>
+</div>
+
+
+</body>
+</html>
